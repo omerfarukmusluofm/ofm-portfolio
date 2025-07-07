@@ -1,0 +1,40 @@
+/* İş Deneyimi Tablosu */
+.is-tablo {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 32px;
+  background-color: #000000;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(250, 90, 255, 0.3);
+  border: 1px solid #333333;
+}
+.is-tablo th {
+  background: linear-gradient(135deg, #e048e5, #fa5aff);
+  color: var(--text-color);
+  font-weight: 600;
+}
+.is-tablo td {
+  color: #cccccc;
+}
+.is-tablo tr:hover {
+  background-color: #1a1a1a;
+}
+.is-tablo th,
+.is-tablo td {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #333333;
+}
+
+@media screen and (max-width: 768px) {
+  .experience-table {
+    padding: 20px;
+  }
+
+  .experience-table h2,
+  .experience-table p {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}

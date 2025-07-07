@@ -1,0 +1,60 @@
+.egitim-yapisi {
+  display: flex;
+
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 40px 0;
+}
+
+.egitim h2,
+.egitim i {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.egitim-kartlari {
+  text-align: center;
+  position: relative;
+  background: black;
+  padding: 32px;
+  border-radius: 12px;
+  border: 2px solid #333333;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.egitim-kartlari:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(250, 90, 255, 0.3);
+  border-color: #fa5aff;
+  transition: all 0.3s ease;
+}
+
+.egitim-kartlari i {
+  color: #e048e5;
+  font-size: 56px;
+}
+
+.egitim-kartlari h3 {
+  font-size: 22px;
+  padding: 20px;
+}
+
+.egitim-kartlari p {
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .egitim-yapisi {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .egitim-kartlari {
+    width: 800px;
+  }
+
+  .egitim {
+    padding: 20px;
+    text-align: center;
+  }
+}

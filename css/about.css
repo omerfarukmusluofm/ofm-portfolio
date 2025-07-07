@@ -1,0 +1,28 @@
+/* Hakkımda*/
+section {
+  margin-bottom: 80px;
+  background: #1a1a1a;
+  padding: 48px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(250, 90, 255, 0.2);
+  border: 1px solid #333333;
+  position: relative;
+}
+
+.hakkimda h2,
+.hakkimda p {
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .hakkimda {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hakkimda {
+    padding: 20px;
+  }
+}

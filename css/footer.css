@@ -1,0 +1,33 @@
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 64px 0px;
+  border-top: 2px solid #e048e5;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer a {
+  font-size: 52px;
+  padding-bottom: 20px;
+}
+
+.footer i {
+  color: #e048e5;
+  padding-bottom: 20px;
+}
+
+footer p {
+  padding-bottom: 40px;
+}
+
+.basa-don a {
+  text-decoration: none;
+  color: #e048e5;
+  font-size: 20px;
+}

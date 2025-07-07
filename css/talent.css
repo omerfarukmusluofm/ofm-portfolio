@@ -1,0 +1,79 @@
+/* Teknik Yetenekler*/
+.yetenek-yapisi {
+  display: flex;
+  gap: 20px;
+}
+
+.highlight {
+  background-color: #e048e5;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+details {
+  background-color: #000000;
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid #333333;
+}
+
+summary:hover {
+  background-color: #e048e5;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.kartlar {
+  text-align: center;
+  position: relative;
+  background: black;
+  padding: 32px;
+  border-radius: 12px;
+  border: 2px solid #333333;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  width: 800px;
+}
+
+.kartlar:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(250, 90, 255, 0.3);
+  border-color: #fa5aff;
+  transition: all 0.3s ease;
+  transform: translateY(-8px);
+}
+
+.kartlar i {
+  font-size: 56px;
+  color: #fa5aff;
+  margin-bottom: 24px;
+  display: block;
+}
+
+.kartlar h3 {
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.kartlar p {
+  color: #cccccc;
+}
+
+@media screen and (max-width: 768px) {
+  .yetenekler {
+    padding: 20px;
+  }
+
+  .yetenekler h2,
+  .yetenekler p {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .yetenek-yapisi {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

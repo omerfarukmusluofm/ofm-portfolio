@@ -1,0 +1,89 @@
+/*Öne Çıkan Projeler Yapısı*/
+.proje-yapisi {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 40px;
+}
+article {
+  width: 100%;
+}
+
+.projeler h2,
+.projeler p {
+  padding-bottom: 40px;
+}
+
+.proje-kartlar {
+  background-color: #000000;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(250, 90, 255, 0.2);
+  transition: all 0.3s ease;
+  border: 2px solid #333333;
+}
+
+.proje-kartlar:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(250, 90, 255, 0.3);
+  border-color: #fa5aff;
+}
+
+.imgeler {
+  width: 100%;
+  height: 220px;
+  background: linear-gradient(135deg, #fa5aff, #e048e5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 64px;
+  position: relative;
+}
+
+.proje-icerik {
+  padding: 32px;
+}
+
+.proje-icerik h3 {
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.proje-icerik p {
+  color: #cccccc;
+  margin-bottom: 24px;
+}
+
+.tagler {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.tag {
+  background: linear-gradient(135deg, #fa5aff, #e048e5);
+  color: #ffffff;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .proje-yapisi {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .projeler {
+    padding: 20px;
+  }
+
+  .projeler h2,
+  .projeler p {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
