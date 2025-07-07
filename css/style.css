@@ -8,6 +8,15 @@
 @import "./communication-form.css";
 @import "./services.css";
 @import "./footer.css";
+
+/*Tüm sitenin default fontu
+:root{
+  font-size: 20px;
+}
+*/
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -25,17 +34,29 @@ body {
   background: #000000;
 }
 .container {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 200px;
 }
 
 main {
   padding: 4rem 0;
 }
 
+@media screen and (max-width: 1400px) {
+  .container {
+    padding: 0 120px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    padding: 0 100px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container {
-    padding: 0 16px;
+    padding: 0 40px;
   }
 }
